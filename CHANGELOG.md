@@ -23,4 +23,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Security Program Charter reference (ISO 27001 A.5.1, ISO 22301 5.x)
 - README with usage documentation
 - Contributing guidelines
-- MIT License
+- CC BY-NC-SA 4.0 License

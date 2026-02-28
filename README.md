@@ -111,7 +111,9 @@ Areas where contributions are especially valuable:
 
 ## License
 
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+This project is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). See [LICENSE](LICENSE) for details.
+
+Free for individual and non-commercial use. For commercial licensing, contact [The Reed Group](https://www.linkedin.com/in/timreedcpp/).
 
 ## About
 
