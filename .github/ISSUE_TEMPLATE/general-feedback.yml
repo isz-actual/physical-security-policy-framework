@@ -1,0 +1,34 @@
+name: General Feedback
+description: Usability feedback, suggestions, or other comments on the framework
+title: "[Feedback] "
+labels: ["feedback", "beta-feedback"]
+body:
+  - type: dropdown
+    id: feedback-type
+    attributes:
+      label: Feedback category
+      options:
+        - "Usability -- structure, formatting, or readability"
+        - "Content -- language, tone, or enforceability"
+        - "Claude skill behavior -- how the AI generates policies"
+        - "New domain request"
+        - "Industry-specific overlay request"
+        - "Jurisdiction-specific addition"
+        - "Other"
+    validations:
+      required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Your feedback
+      description: What worked well, what didn't, or what would you change?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Your context (optional)
+      description: Help us understand your perspective -- role, industry, certification you're working toward, etc. This is optional and won't be shared outside this project.
+      placeholder: "e.g., Security manager at a 500-person biotech company preparing for ISO 27001 Stage 1 audit."
+    validations:
+      required: false

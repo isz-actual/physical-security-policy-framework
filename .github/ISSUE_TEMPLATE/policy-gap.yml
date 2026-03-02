@@ -1,0 +1,59 @@
+name: Policy Gap
+description: Report a missing provision, control mapping, or compliance requirement
+title: "[Gap] "
+labels: ["policy-gap", "beta-feedback"]
+body:
+  - type: dropdown
+    id: domain
+    attributes:
+      label: Policy Domain
+      description: Which policy domain is affected?
+      options:
+        - Access Control
+        - CCTV / Video Surveillance
+        - Key and Lock Control
+        - Emergency Response
+        - Bomb Threat Response
+        - Visitor Management
+        - Workplace Violence Prevention
+        - Incident Reporting
+        - Security Officer Post Orders
+        - Executive Protection
+        - Security Program Charter
+        - Framework-wide (SKILL.md)
+        - New domain (not yet covered)
+    validations:
+      required: true
+  - type: textarea
+    id: gap-description
+    attributes:
+      label: What's missing?
+      description: Describe the provision, control, requirement, or scenario that isn't covered.
+      placeholder: "e.g., The access control policy doesn't address temporary badge issuance for contractors on multi-day projects."
+    validations:
+      required: true
+  - type: textarea
+    id: standard-reference
+    attributes:
+      label: Standard or regulation reference (if applicable)
+      description: If this gap relates to a specific ISO control, regulation, or industry standard, cite it here.
+      placeholder: "e.g., ISO 27001 A.9.2.2, OSHA 1910.146, ITAR 22 CFR 120-130"
+    validations:
+      required: false
+  - type: textarea
+    id: suggested-language
+    attributes:
+      label: Suggested language or approach
+      description: If you have a recommendation for how to address this gap, include it here.
+    validations:
+      required: false
+  - type: dropdown
+    id: severity
+    attributes:
+      label: How critical is this gap?
+      options:
+        - "Audit blocker -- would fail a certification audit without this"
+        - "Significant -- a competent auditor would flag it"
+        - "Nice to have -- improves completeness but not a finding"
+    validations:
+      required: true

@@ -1,0 +1,53 @@
+name: Compliance Mapping Error
+description: Report an incorrect or outdated ISO control mapping, legal citation, or regulatory reference
+title: "[Mapping] "
+labels: ["compliance-error", "beta-feedback"]
+body:
+  - type: dropdown
+    id: domain
+    attributes:
+      label: Policy Domain
+      description: Which policy domain contains the error?
+      options:
+        - Access Control
+        - CCTV / Video Surveillance
+        - Key and Lock Control
+        - Emergency Response
+        - Bomb Threat Response
+        - Visitor Management
+        - Workplace Violence Prevention
+        - Incident Reporting
+        - Security Officer Post Orders
+        - Executive Protection
+        - Security Program Charter
+        - Framework-wide (SKILL.md)
+    validations:
+      required: true
+  - type: dropdown
+    id: error-type
+    attributes:
+      label: Type of error
+      options:
+        - "Wrong ISO control number or clause"
+        - "Outdated regulation or citation"
+        - "Incorrect legal jurisdiction reference"
+        - "Control mapped to wrong policy section"
+        - "Missing control that should be mapped"
+        - "Other"
+    validations:
+      required: true
+  - type: textarea
+    id: current-text
+    attributes:
+      label: Current text (what's wrong)
+      description: Quote or reference the specific mapping or citation that is incorrect.
+      placeholder: "e.g., Section 5.3 maps visitor badge procedures to A.11.1.3 (key control) but should map to A.11.1.2 (physical entry controls)."
+    validations:
+      required: true
+  - type: textarea
+    id: correct-reference
+    attributes:
+      label: Correct reference
+      description: Provide the correct control number, citation, or regulatory reference.
+    validations:
+      required: true
