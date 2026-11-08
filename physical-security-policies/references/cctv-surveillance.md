@@ -78,12 +78,11 @@ If video analytics are in use or planned:
 
 | ISO Standard | Control | Title | Relevance |
 |-------------|---------|-------|-----------|
-| ISO 27001 | A.11.1.1 | Physical security perimeter | Perimeter camera coverage |
-| ISO 27001 | A.11.1.2 | Physical entry controls | Entry point camera verification |
-| ISO 27001 | A.11.1.6 | Delivery and loading areas | Loading dock surveillance |
-| ISO 27001 | A.12.4.1 | Event logging | Video recording as event log |
-| ISO 27001 | A.12.4.3 | Administrator and operator logs | Access to VMS audit trail |
-| ISO 27001 | A.18.1.4 | Privacy and PII protection | Camera placement restrictions, data handling |
+| ISO/IEC 27001:2022 | A.7.1 | Physical security perimeters | Perimeter camera coverage |
+| ISO/IEC 27001:2022 | A.7.2 | Physical entry | Entry point camera verification, loading dock surveillance |
+| ISO/IEC 27001:2022 | A.8.15 | Logging | Video recording as event log, access to VMS audit trail |
+| ISO/IEC 27001:2022 | A.5.34 | Privacy and protection of PII | Camera placement restrictions, data handling |
+| ISO/IEC 27001:2022 | A.7.4 | Physical security monitoring | Continuous video monitoring of premises |
 
 ## Compliance Metrics
 

@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.1.0] - 2026-11-08
+
+### Changed
+- Remapped every control mapping table from ISO/IEC 27001:2013 numbering (A.9, A.11, A.12, A.16, etc.) to ISO/IEC 27001:2022 Annex A, using the correspondence in ISO/IEC 27002:2022 Annex B. Rows that collapse into one 2022 control are merged.
+- Added A.7.4 Physical security monitoring (new in 2022) to the Access Control, CCTV, and Post Orders mappings.
+- Replaced the "ASIS EPP-2020" citation, which does not correspond to a published standard, with the ASIS Executive Protection Standard (2025).
+- Updated README and SKILL.md domain tables to match.
 ## [1.0.0] - 2026-02-28
 
 ### Added

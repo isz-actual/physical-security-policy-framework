@@ -106,13 +106,12 @@ All employees, contractors, vendors, and visitors shall report security incident
 
 | ISO Standard | Control | Title | Relevance |
 |-------------|---------|-------|-----------|
-| ISO 27001 | A.16.1.1 | Responsibilities and procedures | Incident management framework |
-| ISO 27001 | A.16.1.2 | Reporting security events | Employee reporting obligations |
-| ISO 27001 | A.16.1.3 | Reporting security weaknesses | Near-miss and suspicious activity |
-| ISO 27001 | A.16.1.4 | Assessment of security events | Severity classification |
-| ISO 27001 | A.16.1.5 | Response to security incidents | Investigation process |
-| ISO 27001 | A.16.1.6 | Learning from security incidents | Trend analysis and corrective action |
-| ISO 27001 | A.16.1.7 | Collection of evidence | Evidence handling procedures |
+| ISO/IEC 27001:2022 | A.5.24 | Information security incident management planning and preparation | Incident management framework |
+| ISO/IEC 27001:2022 | A.6.8 | Information security event reporting | Employee reporting obligations, near-miss and suspicious activity |
+| ISO/IEC 27001:2022 | A.5.25 | Assessment and decision on information security events | Severity classification |
+| ISO/IEC 27001:2022 | A.5.26 | Response to information security incidents | Investigation process |
+| ISO/IEC 27001:2022 | A.5.27 | Learning from information security incidents | Trend analysis and corrective action |
+| ISO/IEC 27001:2022 | A.5.28 | Collection of evidence | Evidence handling procedures |
 | ISO 22301 | 8.4.3 | Warning and communication | Notification and escalation |
 
 ## Compliance Metrics

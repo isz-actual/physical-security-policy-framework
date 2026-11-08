@@ -118,9 +118,9 @@ Each emergency type gets its own sub-procedure:
 | ISO 22301 | 8.4 | Business continuity procedures | Emergency response as part of BC |
 | ISO 22301 | 8.5 | Exercising and testing | Drill and exercise program |
 | ISO 22301 | 9.1 | Monitoring, measurement, analysis | Post-incident review |
-| ISO 27001 | A.11.1.4 | Protecting against external/environmental threats | Natural disaster response |
-| ISO 27001 | A.11.2.1 | Equipment siting and protection | Utility failure response |
-| ISO 27001 | A.17.1.1 | Planning information security continuity | Crisis communication |
+| ISO/IEC 27001:2022 | A.7.5 | Protecting against physical and environmental threats | Natural disaster response |
+| ISO/IEC 27001:2022 | A.7.8 | Equipment siting and protection | Utility failure response |
+| ISO/IEC 27001:2022 | A.5.29 | Information security during disruption | Crisis communication |
 | OSHA | 1910.38 | Emergency action plans | Evacuation, alarm, training |
 | OSHA | 1910.39 | Fire prevention plans | Fire response procedures |
 

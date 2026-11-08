@@ -123,12 +123,12 @@ When close protection is authorized:
 
 | ISO Standard | Control | Title | Relevance |
 |-------------|---------|-------|-----------|
-| ISO 27001 | A.11.1.1 | Physical security perimeter | Residential and venue security |
-| ISO 27001 | A.6.2.1 | Mobile device policy | Executive device security during travel |
-| ISO 27001 | A.6.2.2 | Teleworking | Residential security for remote work |
-| ISO 27001 | A.16.1.1 | Incident management | Threat response procedures |
+| ISO/IEC 27001:2022 | A.7.1 | Physical security perimeters | Residential and venue security |
+| ISO/IEC 27001:2022 | A.8.1 | User endpoint devices | Executive device security during travel |
+| ISO/IEC 27001:2022 | A.6.7 | Remote working | Residential security for remote work |
+| ISO/IEC 27001:2022 | A.5.24 | Information security incident management planning and preparation | Threat response procedures |
 | ISO 22301 | 8.4 | Business continuity procedures | Executive continuity planning |
-| ASIS | EPP-2020 | Enterprise Protection Programs | Full EP program standard |
+| ASIS | Executive Protection Standard (2025) | Executive Protection Standard | Full EP program standard |
 
 ## Compliance Metrics
 

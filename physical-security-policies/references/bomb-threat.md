@@ -139,8 +139,8 @@ Include a printable one-page checklist with fields for:
 |-------------|---------|-------|-----------|
 | ISO 22301 | 8.4 | Business continuity procedures | Bomb threat as BC event |
 | ISO 22301 | 8.5 | Exercising and testing | Bomb threat tabletop exercises |
-| ISO 27001 | A.11.1.4 | External/environmental threats | Threat response |
-| ISO 27001 | A.16.1.1 | Responsibilities and procedures | Incident response chain |
+| ISO/IEC 27001:2022 | A.7.5 | Protecting against physical and environmental threats | Threat response |
+| ISO/IEC 27001:2022 | A.5.24 | Information security incident management planning and preparation | Incident response chain |
 
 ## Compliance Metrics
 

@@ -1,6 +1,6 @@
 ---
 name: physical-security-policies
-description: Write professional physical security policies, procedures, and plans aligned with ISO 27001 (Annex A.11), ISO 22301, and ASIS standards. Use this skill whenever the user asks to draft, review, edit, or create any physical security policy, procedure, standard operating procedure (SOP), emergency plan, access control policy, CCTV policy, bomb threat procedure, key control program, visitor management policy, workplace violence prevention plan, incident response procedure, executive protection protocol, security officer post orders, or any document related to corporate physical security programs. Also trigger when the user mentions ISO certification prep for physical security, security policy templates, or compliance-ready security documentation.
+description: Write professional physical security policies, procedures, and plans aligned with ISO/IEC 27001:2022 (Annex A.7 physical controls), ISO 22301:2019, and ASIS standards. Use this skill whenever the user asks to draft, review, edit, or create any physical security policy, procedure, standard operating procedure (SOP), emergency plan, access control policy, CCTV policy, bomb threat procedure, key control program, visitor management policy, workplace violence prevention plan, incident response procedure, executive protection protocol, security officer post orders, or any document related to corporate physical security programs. Also trigger when the user mentions ISO certification prep for physical security, security policy templates, or compliance-ready security documentation.
 ---
 
 # Physical Security Policy & Procedure Writer
@@ -12,7 +12,7 @@ Generate professional, ISO-aligned physical security policies and procedures rea
 Every policy produced by this skill must:
 
 1. Follow a consistent document control structure (see Document Framework below)
-2. Align with ISO 27001 Annex A.11 (Physical and Environmental Security) and ISO 22301 (Business Continuity) where applicable
+2. Align with ISO/IEC 27001:2022 Annex A.7 (Physical controls) and ISO 22301:2019 (Business Continuity) where applicable
 3. Use clear, enforceable language -- not aspirational statements
 4. Call out every unknown or site-specific variable with `[USER INPUT REQUIRED: description]` tags so nothing gets silently assumed
 5. Include measurable compliance indicators wherever possible
@@ -59,17 +59,17 @@ When the user requests a policy, match it to one of the supported domains below.
 
 | Domain | Reference File | ISO Alignment |
 |--------|---------------|---------------|
-| Access Control | `references/access-control.md` | ISO 27001 A.11.1.1, A.11.1.2 |
-| CCTV / Video Surveillance | `references/cctv-surveillance.md` | ISO 27001 A.11.1.1, GDPR Art. 6 |
-| Key & Lock Control | `references/key-control.md` | ISO 27001 A.11.1.3 |
+| Access Control | `references/access-control.md` | ISO/IEC 27001:2022 A.7.1, A.7.2, A.5.18 |
+| CCTV / Video Surveillance | `references/cctv-surveillance.md` | ISO/IEC 27001:2022 A.7.4, A.5.34, GDPR Art. 6 |
+| Key & Lock Control | `references/key-control.md` | ISO/IEC 27001:2022 A.7.3 |
 | Emergency Response | `references/emergency-response.md` | ISO 22301, OSHA 1910.38 |
 | Bomb Threat Response | `references/bomb-threat.md` | ISO 22301, DHS guidance |
-| Visitor Management | `references/visitor-management.md` | ISO 27001 A.11.1.2 |
+| Visitor Management | `references/visitor-management.md` | ISO/IEC 27001:2022 A.7.2, A.7.6 |
 | Workplace Violence Prevention | `references/workplace-violence.md` | OSHA General Duty Clause |
-| Incident Reporting | `references/incident-reporting.md` | ISO 27001 A.16, ISO 22301 |
+| Incident Reporting | `references/incident-reporting.md` | ISO/IEC 27001:2022 A.5.24 to A.5.28, A.6.8, ISO 22301 |
 | Security Officer Post Orders | `references/post-orders.md` | ASIS standards |
-| Executive Protection | `references/executive-protection.md` | ASIS EPP standards |
-| Security Program Charter | `references/program-charter.md` | ISO 27001 A.5.1 |
+| Executive Protection | `references/executive-protection.md` | ASIS Executive Protection Standard (2025) |
+| Security Program Charter | `references/program-charter.md` | ISO/IEC 27001:2022 A.5.1, A.5.2 |
 
 ### Step 2: Gather Required Inputs
 

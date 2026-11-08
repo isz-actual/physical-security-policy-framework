@@ -132,10 +132,9 @@ The program shall track and report:
 
 | ISO Standard | Control | Title | Relevance |
 |-------------|---------|-------|-----------|
-| ISO 27001 | A.5.1.1 | Policies for information security | Policy framework management |
-| ISO 27001 | A.5.1.2 | Review of policies | Annual review cycle |
-| ISO 27001 | A.6.1.1 | Information security roles/responsibilities | Governance structure |
-| ISO 27001 | A.18.2.1 | Independent review of information security | Audit program |
+| ISO/IEC 27001:2022 | A.5.1 | Policies for information security | Policy framework management, annual review cycle |
+| ISO/IEC 27001:2022 | A.5.2 | Information security roles and responsibilities | Governance structure |
+| ISO/IEC 27001:2022 | A.5.35 | Independent review of information security | Audit program |
 | ISO 22301 | 5.1 | Leadership and commitment | Executive sponsorship |
 | ISO 22301 | 5.2 | Policy | Program charter as foundational document |
 | ISO 22301 | 5.3 | Organizational roles | Governance structure |

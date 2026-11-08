@@ -8,7 +8,7 @@ Built by a CPP-certified security practitioner with 26+ years of experience acro
 
 A structured framework for generating professional physical security policies that are:
 
-- **ISO-mapped** -- every policy includes a control mapping table linking sections to ISO 27001 Annex A.11 and ISO 22301 controls
+- **ISO-mapped** -- every policy includes a control mapping table linking sections to ISO/IEC 27001:2022 Annex A controls (primarily A.7, Physical controls) and ISO 22301:2019
 - **Audit-ready** -- consistent document control structure across all policy domains with built-in revision tracking
 - **Legally aware** -- jurisdiction-specific compliance flags for ADA, OSHA, BIPA, GDPR, state wiretapping laws, and union/CBA considerations
 - **Gap-proof** -- unknown or site-specific variables are explicitly flagged with `[USER INPUT REQUIRED]` tags so nothing gets silently assumed
@@ -17,17 +17,17 @@ A structured framework for generating professional physical security policies th
 
 | Domain | Reference File | Primary ISO Controls |
 |--------|---------------|---------------------|
-| Access Control | `references/access-control.md` | A.11.1.1, A.11.1.2, A.9.2.x |
-| CCTV / Video Surveillance | `references/cctv-surveillance.md` | A.11.1.1, A.18.1.4 |
-| Key and Lock Control | `references/key-control.md` | A.11.1.3 |
+| Access Control | `references/access-control.md` | A.7.1, A.7.2, A.7.4, A.5.18 |
+| CCTV / Video Surveillance | `references/cctv-surveillance.md` | A.7.4, A.5.34 |
+| Key and Lock Control | `references/key-control.md` | A.7.3 |
 | Emergency Response | `references/emergency-response.md` | ISO 22301 8.4, OSHA 1910.38 |
 | Bomb Threat Response | `references/bomb-threat.md` | ISO 22301 8.4 |
-| Visitor Management | `references/visitor-management.md` | A.11.1.2, A.11.1.5 |
+| Visitor Management | `references/visitor-management.md` | A.7.2, A.7.6 |
 | Workplace Violence Prevention | `references/workplace-violence.md` | OSHA General Duty Clause |
-| Incident Reporting | `references/incident-reporting.md` | A.16.1.x |
-| Security Officer Post Orders | `references/post-orders.md` | A.11.1.1, A.11.1.2 |
-| Executive Protection | `references/executive-protection.md` | ASIS EPP-2020 |
-| Security Program Charter | `references/program-charter.md` | A.5.1.1, ISO 22301 5.x |
+| Incident Reporting | `references/incident-reporting.md` | A.5.24 to A.5.28, A.6.8 |
+| Security Officer Post Orders | `references/post-orders.md` | A.7.1, A.7.2, A.7.4 |
+| Executive Protection | `references/executive-protection.md` | ASIS Executive Protection Standard (2025) |
+| Security Program Charter | `references/program-charter.md` | A.5.1, ISO 22301 5.x |
 
 ## How It Works
 
@@ -97,7 +97,7 @@ No aspirational language. No "try to" or "make an effort to." Every statement is
 
 - This framework provides templates and structure, not legal advice. Have your legal counsel review all policies before adoption.
 - Regulatory requirements vary by jurisdiction, industry, and collective bargaining agreements. The legal flags in each reference file are starting points, not comprehensive legal analysis.
-- The ISO mappings reference ISO 27001:2022 and ISO 22301:2019. Verify alignment with the specific version your organization is certifying against.
+- The ISO mappings reference ISO/IEC 27001:2022 and ISO 22301:2019. Control numbering follows the 2022 Annex A. Correspondence to the superseded 2013 numbering follows ISO/IEC 27002:2022 Annex B. The certification transition period for the 2013 edition ended October 31, 2025.
 
 ## Contributing
 

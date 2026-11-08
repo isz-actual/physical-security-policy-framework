@@ -68,11 +68,11 @@ Define key tiers aligned with access zones:
 
 | ISO Standard | Control | Title | Relevance |
 |-------------|---------|-------|-----------|
-| ISO 27001 | A.11.1.3 | Securing offices, rooms, facilities | Lock hardware standards |
-| ISO 27001 | A.11.1.1 | Physical security perimeter | Perimeter lock standards |
-| ISO 27001 | A.9.2.1 | User registration/de-registration | Key issuance and return |
-| ISO 27001 | A.9.2.5 | Review of user access rights | Key audits |
-| ISO 27001 | A.9.4.2 | Secure log-on procedures | Safe combination controls |
+| ISO/IEC 27001:2022 | A.7.3 | Securing offices, rooms and facilities | Lock hardware standards |
+| ISO/IEC 27001:2022 | A.7.1 | Physical security perimeters | Perimeter lock standards |
+| ISO/IEC 27001:2022 | A.5.16 | Identity management | Key issuance and return |
+| ISO/IEC 27001:2022 | A.5.18 | Access rights | Key audits |
+| ISO/IEC 27001:2022 | A.8.5 | Secure authentication | Safe combination controls |
 
 ## Compliance Metrics
 

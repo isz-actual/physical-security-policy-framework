@@ -62,16 +62,14 @@ Cover the full lifecycle:
 
 | ISO Standard | Control | Title | Relevance |
 |-------------|---------|-------|-----------|
-| ISO 27001 | A.11.1.1 | Physical security perimeter | Zone classification and boundary controls |
-| ISO 27001 | A.11.1.2 | Physical entry controls | Credential management, authentication methods |
-| ISO 27001 | A.11.1.3 | Securing offices, rooms, and facilities | Zone-specific access restrictions |
-| ISO 27001 | A.11.1.4 | Protecting against external/environmental threats | Perimeter controls |
-| ISO 27001 | A.11.1.5 | Working in secure areas | High-security zone procedures |
-| ISO 27001 | A.11.1.6 | Delivery and loading areas | Loading dock access controls |
-| ISO 27001 | A.9.2.1 | User registration and de-registration | Credential lifecycle |
-| ISO 27001 | A.9.2.2 | User access provisioning | Access level assignment |
-| ISO 27001 | A.9.2.5 | Review of user access rights | Credential audit and reconciliation |
-| ISO 27001 | A.9.2.6 | Removal of access rights | Termination and revocation procedures |
+| ISO/IEC 27001:2022 | A.7.1 | Physical security perimeters | Zone classification and boundary controls |
+| ISO/IEC 27001:2022 | A.7.2 | Physical entry | Credential management, authentication methods, loading dock access controls |
+| ISO/IEC 27001:2022 | A.7.3 | Securing offices, rooms and facilities | Zone-specific access restrictions |
+| ISO/IEC 27001:2022 | A.7.5 | Protecting against physical and environmental threats | Perimeter controls |
+| ISO/IEC 27001:2022 | A.7.6 | Working in secure areas | High-security zone procedures |
+| ISO/IEC 27001:2022 | A.5.16 | Identity management | Credential lifecycle |
+| ISO/IEC 27001:2022 | A.5.18 | Access rights | Access level assignment, credential audit and reconciliation, termination and revocation procedures |
+| ISO/IEC 27001:2022 | A.7.4 | Physical security monitoring | Access event monitoring and alarm response |
 
 ## Compliance Metrics
 

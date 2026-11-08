@@ -72,11 +72,10 @@ Conditions for denying visitor access:
 
 | ISO Standard | Control | Title | Relevance |
 |-------------|---------|-------|-----------|
-| ISO 27001 | A.11.1.2 | Physical entry controls | Visitor check-in/check-out |
-| ISO 27001 | A.11.1.5 | Working in secure areas | Escort requirements |
-| ISO 27001 | A.11.1.6 | Delivery and loading areas | Delivery personnel access |
-| ISO 27001 | A.13.2.4 | Confidentiality agreements | Visitor NDAs |
-| ISO 27001 | A.8.1.3 | Acceptable use of assets | Visitor device and Wi-Fi restrictions |
+| ISO/IEC 27001:2022 | A.7.2 | Physical entry | Visitor check-in/check-out, delivery personnel access |
+| ISO/IEC 27001:2022 | A.7.6 | Working in secure areas | Escort requirements |
+| ISO/IEC 27001:2022 | A.6.6 | Confidentiality or non-disclosure agreements | Visitor NDAs |
+| ISO/IEC 27001:2022 | A.5.10 | Acceptable use of information and other associated assets | Visitor device and Wi-Fi restrictions |
 
 ## Compliance Metrics
 

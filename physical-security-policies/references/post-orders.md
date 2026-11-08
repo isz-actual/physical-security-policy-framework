@@ -140,10 +140,11 @@ Each post shall have a dedicated post order document containing:
 
 | ISO Standard | Control | Title | Relevance |
 |-------------|---------|-------|-----------|
-| ISO 27001 | A.11.1.1 | Physical security perimeter | Perimeter patrol duties |
-| ISO 27001 | A.11.1.2 | Physical entry controls | Access control at post |
-| ISO 27001 | A.7.2.2 | Information security awareness | Officer training requirements |
-| ISO 27001 | A.12.4.1 | Event logging | Activity logging and reporting |
+| ISO/IEC 27001:2022 | A.7.1 | Physical security perimeters | Perimeter patrol duties |
+| ISO/IEC 27001:2022 | A.7.2 | Physical entry | Access control at post |
+| ISO/IEC 27001:2022 | A.6.3 | Information security awareness, education and training | Officer training requirements |
+| ISO/IEC 27001:2022 | A.8.15 | Logging | Activity logging and reporting |
+| ISO/IEC 27001:2022 | A.7.4 | Physical security monitoring | Patrols and alarm monitoring |
 
 ## Compliance Metrics
 

@@ -108,10 +108,10 @@ Use a broad, enforceable definition:
 
 | ISO Standard | Control | Title | Relevance |
 |-------------|---------|-------|-----------|
-| ISO 27001 | A.7.1.1 | Screening | Pre-employment background checks |
-| ISO 27001 | A.7.2.3 | Disciplinary process | Enforcement of policy violations |
-| ISO 27001 | A.11.1.1 | Physical security perimeter | Perimeter controls against intruders |
-| ISO 27001 | A.11.1.2 | Physical entry controls | Access restriction for threats |
+| ISO/IEC 27001:2022 | A.6.1 | Screening | Pre-employment background checks |
+| ISO/IEC 27001:2022 | A.6.4 | Disciplinary process | Enforcement of policy violations |
+| ISO/IEC 27001:2022 | A.7.1 | Physical security perimeters | Perimeter controls against intruders |
+| ISO/IEC 27001:2022 | A.7.2 | Physical entry | Access restriction for threats |
 | ISO 45001 | 6.1.2 | Hazard identification | Workplace violence as occupational hazard |
 
 ## Compliance Metrics
